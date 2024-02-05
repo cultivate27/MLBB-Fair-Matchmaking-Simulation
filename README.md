@@ -59,9 +59,9 @@ Simulasi matchmaking game Mobile Legends: Bang Bang yang adil dalam bahasa C#
 ### Memasukkan input
 Input pada program bukan termasuk Case Sensitive, Anda dapat memasukkan `Y` atau `y`.
 
-> Memasukkan input `Y` atau `y` akan melanjutkan pengacakan matchmaking.
-> Memasukkan input `N` atau `n` akan mengakhiri program.
-> Memasukkan selain input `Y` atau `y` dan `N` atau `n` akan mengulang konfirmasi pengulangan.
+- Memasukkan input `Y` atau `y` akan melanjutkan pengacakan matchmaking.
+- Memasukkan input `N` atau `n` akan mengakhiri program.
+- Memasukkan selain input `Y` atau `y` dan `N` atau `n` akan mengulang konfirmasi pengulangan.
 
 ## Cara Kerja
 Ketika program baru dijalankan, metode `Start();` akan dieksekusi. Memulai pembuatan beberapa objek player secara acak dan mengisi nilai pada variabel `mid`, `exp`, `roam`, `jungle`, `gold` secara acak dari skala 1 sampai 40 (match terakhir tertinggi yang dapat ditampilkan sekitar 40). Dibalik itu terdapat variabel `public int identificator` sebagai pengidentifikasi role tiap objek dan variabel `public int order` sebagai urutan dari sebaran objek player yang telah dibuat sebelumnya.
