@@ -64,7 +64,7 @@ Input pada program bukan termasuk Case Sensitive, Anda dapat memasukkan `Y` atau
 - Memasukkan selain input `Y` atau `y` dan `N` atau `n` akan mengulang konfirmasi pengulangan.
 
 ## Cara Kerja
-Ketika program baru dijalankan, metode `Start();` akan dieksekusi. Memulai pembuatan beberapa objek player secara acak dan mengisi nilai pada variabel `mid`, `exp`, `roam`, `jungle`, `gold` secara acak dari skala 1 sampai 40 (match terakhir tertinggi yang dapat ditampilkan sekitar 40). Dibalik itu terdapat variabel `public int identificator` sebagai pengidentifikasi role tiap objek dan variabel `public int order` sebagai urutan dari sebaran objek player yang telah dibuat sebelumnya.
+Ketika program baru dijalankan, metode `Start();` akan dieksekusi. Memulai pembuatan beberapa objek player secara acak dan mengisi nilai pada variabel `mid`, `exp`, `roam`, `jungle`, `gold` secara acak dari skala 1 sampai 50 (match terakhir tertinggi yang dapat direkam adalah 50). Dibalik itu terdapat variabel `public int identificator` sebagai pengidentifikasi role tiap objek dan variabel `public int order` sebagai urutan dari sebaran objek player yang telah dibuat sebelumnya.
 
 Di dalam kelas Player terdapat metode `Highest();` yang akan langsung dijalankan ketika objek dibuat. Metode `theHighest` akan langsung menghitung match terbesar dari nilai pengacakan variabel role antara `mid`, `exp`, `roam`, `jungle`, `gold`. Mengambil match terbesar dari beberapa variabel role akan menentukan role yang paling dikuasai.
 
