@@ -66,7 +66,7 @@ Input pada program bukan termasuk Case Sensitive, Anda dapat memasukkan `Y` atau
 ## Cara Kerja
 Ketika program baru dijalankan, metode `Start();` akan dieksekusi. Memulai pembuatan beberapa objek player secara acak dan mengisi nilai pada variabel `mid`, `exp`, `roam`, `jungle`, `gold` secara acak dari skala 1 sampai 50 (match terakhir tertinggi yang dapat direkam adalah 50). Dibalik itu terdapat variabel `public int identificator` sebagai pengidentifikasi role tiap objek dan variabel `public int order` sebagai urutan dari sebaran objek player yang telah dibuat sebelumnya.
 
-Di dalam kelas Player terdapat metode `Highest();` yang akan langsung dijalankan ketika objek dibuat. Metode `theHighest` akan langsung menghitung match terbesar dari nilai pengacakan variabel role antara `mid`, `exp`, `roam`, `jungle`, `gold`. Mengambil match terbesar dari beberapa variabel role akan menentukan role yang paling dikuasai.
+Di dalam kelas Player terdapat metode `Highest();` yang akan langsung dijalankan ketika objek dibuat. Metode `Highest();` akan langsung menghitung match terbesar dari nilai pengacakan variabel role antara `mid`, `exp`, `roam`, `jungle`, `gold`. Mengambil match terbesar dari beberapa variabel role akan menentukan role yang paling dikuasai.
 
 Setelah perhitungan masing-masing role paling dikuasai objek pastinya akan terdapat beberapa objek dengan role paling dikuasai yang sama. Oleh karena itu, dari beberapa objek dengan role paling dikuasai yang sama ini akan dipilih salah satunya secara acak. Kemudian hanya akan bersisa 5 objek dengan role paling dikuasai saja. Beberapa objek tersebut akan memiliki pasangannya membentuk 1 sampai 5 secara tidak berurutan.
 
